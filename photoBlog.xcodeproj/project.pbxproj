@@ -16,6 +16,7 @@
 		C300B86D1D21879600C23CFB /* photoBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B86C1D21879600C23CFB /* photoBlogUITests.swift */; };
 		C300B87C1D218B6800C23CFB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B87B1D218B6800C23CFB /* Post.swift */; settings = {ASSET_TAGS = (); }; };
 		C300B8831D21DD8600C23CFB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8821D21DD8600C23CFB /* PostCell.swift */; settings = {ASSET_TAGS = (); }; };
+		C300B8861D21E57000C23CFB /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8851D21E57000C23CFB /* AddPostViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C300B86E1D21879600C23CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C300B87B1D218B6800C23CFB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C300B8821D21DD8600C23CFB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		C300B8851D21E57000C23CFB /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,10 @@
 		C300B84B1D21879600C23CFB /* photoBlog */ = {
 			isa = PBXGroup;
 			children = (
-				C300B87D1D21DAF000C23CFB /* View */,
 				C300B87A1D218A4D00C23CFB /* Model */,
+				C300B87D1D21DAF000C23CFB /* View */,
 				C300B84C1D21879600C23CFB /* AppDelegate.swift */,
-				C300B84E1D21879600C23CFB /* ViewController.swift */,
-				C300B8501D21879600C23CFB /* Main.storyboard */,
 				C300B8531D21879600C23CFB /* Assets.xcassets */,
-				C300B8551D21879600C23CFB /* LaunchScreen.storyboard */,
 				C300B8581D21879600C23CFB /* Info.plist */,
 			);
 			path = photoBlog;
@@ -135,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				C300B87B1D218B6800C23CFB /* Post.swift */,
+				C300B8841D21E50600C23CFB /* Controller */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -142,9 +142,20 @@
 		C300B87D1D21DAF000C23CFB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C300B8551D21879600C23CFB /* LaunchScreen.storyboard */,
+				C300B8501D21879600C23CFB /* Main.storyboard */,
 				C300B8821D21DD8600C23CFB /* PostCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		C300B8841D21E50600C23CFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C300B84E1D21879600C23CFB /* ViewController.swift */,
+				C300B8851D21E57000C23CFB /* AddPostViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C300B87C1D218B6800C23CFB /* Post.swift in Sources */,
+				C300B8861D21E57000C23CFB /* AddPostViewController.swift in Sources */,
 				C300B84F1D21879600C23CFB /* ViewController.swift in Sources */,
 				C300B84D1D21879600C23CFB /* AppDelegate.swift in Sources */,
 				C300B8831D21DD8600C23CFB /* PostCell.swift in Sources */,
