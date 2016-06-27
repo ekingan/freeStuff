@@ -105,6 +105,7 @@
 			children = (
 				C300B87A1D218A4D00C23CFB /* Model */,
 				C300B87D1D21DAF000C23CFB /* View */,
+				C300B8841D21E50600C23CFB /* Controller */,
 				C300B84C1D21879600C23CFB /* AppDelegate.swift */,
 				C300B8531D21879600C23CFB /* Assets.xcassets */,
 				C300B8581D21879600C23CFB /* Info.plist */,
@@ -134,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				C300B87B1D218B6800C23CFB /* Post.swift */,
-				C300B8841D21E50600C23CFB /* Controller */,
 			);
 			name = Model;
 			sourceTree = "<group>";

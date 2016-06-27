@@ -12,13 +12,13 @@ class AddPostViewController: UIViewController {
 
     @IBOutlet weak var postImage: UIImageView!
     @IBOutlet weak var titleField: UITextField!
-    
     @IBOutlet weak var descField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        postImage.layer.cornerRadius = postImage.frame.size.width / 2
+        postImage.clipsToBounds = true
     }
 
     @IBAction func onMakePostBtnPressed(sender: UIButton) {
@@ -29,5 +29,6 @@ class AddPostViewController: UIViewController {
     }
     
     @IBAction func onCancelBtnPressed(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 }
