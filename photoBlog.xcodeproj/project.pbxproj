@@ -14,6 +14,7 @@
 		C300B8571D21879600C23CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C300B8551D21879600C23CFB /* LaunchScreen.storyboard */; };
 		C300B8621D21879600C23CFB /* photoBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8611D21879600C23CFB /* photoBlogTests.swift */; };
 		C300B86D1D21879600C23CFB /* photoBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B86C1D21879600C23CFB /* photoBlogUITests.swift */; };
+		C300B87C1D218B6800C23CFB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B87B1D218B6800C23CFB /* Post.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C300B8681D21879600C23CFB /* photoBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C300B86C1D21879600C23CFB /* photoBlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoBlogUITests.swift; sourceTree = "<group>"; };
 		C300B86E1D21879600C23CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C300B87B1D218B6800C23CFB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C300B84B1D21879600C23CFB /* photoBlog */ = {
 			isa = PBXGroup;
 			children = (
+				C300B87A1D218A4D00C23CFB /* Model */,
 				C300B84C1D21879600C23CFB /* AppDelegate.swift */,
 				C300B84E1D21879600C23CFB /* ViewController.swift */,
 				C300B8501D21879600C23CFB /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				C300B86E1D21879600C23CFB /* Info.plist */,
 			);
 			path = photoBlogUITests;
+			sourceTree = "<group>";
+		};
+		C300B87A1D218A4D00C23CFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C300B87B1D218B6800C23CFB /* Post.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C300B87C1D218B6800C23CFB /* Post.swift in Sources */,
 				C300B84F1D21879600C23CFB /* ViewController.swift in Sources */,
 				C300B84D1D21879600C23CFB /* AppDelegate.swift in Sources */,
 			);
