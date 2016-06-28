@@ -17,6 +17,7 @@
 		C300B87C1D218B6800C23CFB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B87B1D218B6800C23CFB /* Post.swift */; settings = {ASSET_TAGS = (); }; };
 		C300B8831D21DD8600C23CFB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8821D21DD8600C23CFB /* PostCell.swift */; settings = {ASSET_TAGS = (); }; };
 		C300B8861D21E57000C23CFB /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8851D21E57000C23CFB /* AddPostViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C300B8891D2242B600C23CFB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B8881D2242B600C23CFB /* DataService.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C300B87B1D218B6800C23CFB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C300B8821D21DD8600C23CFB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		C300B8851D21E57000C23CFB /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		C300B8881D2242B600C23CFB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		C300B84B1D21879600C23CFB /* photoBlog */ = {
 			isa = PBXGroup;
 			children = (
+				C300B8871D22429500C23CFB /* Services */,
 				C300B87A1D218A4D00C23CFB /* Model */,
 				C300B87D1D21DAF000C23CFB /* View */,
 				C300B8841D21E50600C23CFB /* Controller */,
@@ -156,6 +159,14 @@
 				C300B8851D21E57000C23CFB /* AddPostViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		C300B8871D22429500C23CFB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C300B8881D2242B600C23CFB /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				C300B87C1D218B6800C23CFB /* Post.swift in Sources */,
 				C300B8861D21E57000C23CFB /* AddPostViewController.swift in Sources */,
 				C300B84F1D21879600C23CFB /* ViewController.swift in Sources */,
+				C300B8891D2242B600C23CFB /* DataService.swift in Sources */,
 				C300B84D1D21879600C23CFB /* AppDelegate.swift in Sources */,
 				C300B8831D21DD8600C23CFB /* PostCell.swift in Sources */,
 			);
