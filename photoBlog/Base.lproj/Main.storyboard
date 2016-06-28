@@ -199,7 +199,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="IMG_2042" translatesAutoresizingMaskIntoConstraints="NO" id="xrO-HH-WVw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xrO-HH-WVw">
                                 <rect key="frame" x="185" y="96" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="QQR-8l-cDd"/>
@@ -284,7 +284,7 @@
                     </view>
                     <connections>
                         <outlet property="descField" destination="FWb-Ck-kRc" id="nVS-QW-0YK"/>
-                        <outlet property="postImage" destination="xrO-HH-WVw" id="a3f-oR-9rE"/>
+                        <outlet property="postImage" destination="xrO-HH-WVw" id="H6c-Cb-R3q"/>
                         <outlet property="titleField" destination="ujy-rz-qON" id="gfj-ww-eZ7"/>
                     </connections>
                 </viewController>

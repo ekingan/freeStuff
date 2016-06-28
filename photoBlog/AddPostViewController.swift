@@ -10,6 +10,7 @@ import UIKit
 
 class AddPostViewController: UIViewController {
 
+  
     @IBOutlet weak var postImage: UIImageView!
     @IBOutlet weak var titleField: UITextField!
     @IBOutlet weak var descField: UITextField!
