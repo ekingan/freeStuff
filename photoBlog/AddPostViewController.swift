@@ -27,14 +27,20 @@ class AddPostViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
 
     @IBAction func onMakePostBtnPressed(sender: UIButton) {
-        sender.setTitle("", forState: .Normal)
-        presentViewController(imagePicker, animated: true, completion: nil)
+        if let title = titleField.text, let desc = descField.text, let img = postImage.image {
+            
+            let imgPath = DataService.instance.saveImageAndCreatePath(img)
+            let post = Post(imagePath: imgPath, title: title, description: desc)
+            DataService.instance.addPost(post)
+            dismissViewControllerAnimated(true, completion: nil)
+        }
+        
     }
    
     @IBAction func addPicBtnPressed(sender: AnyObject) {
-        if let title = titleField.text, let desc = descField.text, let img = postImage.image {
-            
-        }
+        sender.setTitle("", forState: .Normal)
+        presentViewController(imagePicker, animated: true, completion: nil)
+        
     }
     
     @IBAction func onCancelBtnPressed(sender: AnyObject) {

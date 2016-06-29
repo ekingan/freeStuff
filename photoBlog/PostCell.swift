@@ -23,12 +23,8 @@ class PostCell: UITableViewCell {
     func configureCell(post: Post) {
         titleLbl.text = post.title
         descLbl.text = post.postDesc
+        postImg.image = DataService.instance.imageForPath(post.imagePath)
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
 
 }
